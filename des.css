@@ -23,8 +23,8 @@ color: #2c230f;
 
 .converter-row {
     display: flex;
-    height: 180px;
-    width: 911px;
+    height: 315px;
+    width: 1281px;
     justify-content: space-between;
     align-items: center;
     background: rgb(106 187 183 / 32%);
@@ -51,8 +51,8 @@ element.style {
     text-align: center;
     padding-right: 17px;
     padding-left: 21px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     border-radius: 24px;
     margin-right: 32px;
     margin-left: 40px;
@@ -71,8 +71,8 @@ element.style {
 }
 
 .col input {
-    width: 165px;
-    height: 40px;
+    width: 182px;
+    height: 49px;
     background: white;
     border-radius: 51px;
     text-align: center;
