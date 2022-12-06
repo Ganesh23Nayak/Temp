@@ -31,6 +31,7 @@ color: #2c230f;
     border-radius: 49px;
     padding: 50px 20px;
     margin-top: 82px;
+    box-shadow: inset 9px -5px 20px 2px rgb(0 0 0 / 61%), inset 11px 8px 20px 0px rgb(255 255 255 / 62%);
 }
 
 .col {
@@ -54,6 +55,10 @@ element.style {
     margin-right: 32px;
     margin-left: 40px;
     height: 70px;
+     box-shadow: inset 9px -5px 20px 2px rgb(0 0 0 / 61%), inset 11px 8px 20px 0px rgb(255 255 255 / 62%);
+}
+.col:hover{
+    background-image: linear-gradient(rgb(20 141 119),rgb(140 92 191 / 97%));
 }
 .col label {
     font-size: 23px;
