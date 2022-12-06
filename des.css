@@ -23,15 +23,17 @@ color: #2c230f;
 
 .converter-row {
     display: flex;
-    height: 146px;
+    height: 315px;
     width: 1281px;
     justify-content: space-between;
     align-items: center;
-    background: rgb(106 157 187 / 31%);
+    background: rgb(106 187 183 / 32%);
     border-radius: 49px;
     padding: 50px 20px;
     margin-top: 82px;
-    box-shadow: inset 9px -5px 20px 2px rgb(0 0 0 / 61%), inset 11px 8px 20px 0px rgb(255 255 255 / 62%);
+        /* box-shadow: inset 6px -7px 16px 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+            box-shadow: inset 9px -5px 20px 2px rgb(0 0 0 / 61%), inset 11px 8px 20px 0px rgb(255 255 255 / 62%);
 }
 
 .col {
@@ -49,14 +51,15 @@ element.style {
     text-align: center;
     padding-right: 17px;
     padding-left: 21px;
-    padding-top: 45px;
-    padding-bottom: 60px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     border-radius: 24px;
     margin-right: 32px;
     margin-left: 40px;
     height: 70px;
-     box-shadow: inset 9px -5px 20px 2px rgb(0 0 0 / 61%), inset 11px 8px 20px 0px rgb(255 255 255 / 62%);
+    box-shadow: inset 9px -5px 20px 2px rgb(0 0 0 / 61%), inset 11px 8px 20px 0px rgb(255 255 255 / 62%);
 }
+
 .col:hover{
     background-image: linear-gradient(rgb(20 141 119),rgb(140 92 191 / 97%));
 }
